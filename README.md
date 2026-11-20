@@ -213,7 +213,7 @@ The React application hosting the modules was developed as a team effort. My wor
 - [Actuarial SLA Risk Model](docs/actuarial-risk-model.md)
 - [Data Engineering Pipeline](docs/data-engineering.md)
 - [Power BI Reporting](docs/power-bi-reporting.md)
-- [Confidentiality and Disclosure Checklist](docs/confidentiality-checklist.md)
+
 
 ## Scope and Limitations
 
