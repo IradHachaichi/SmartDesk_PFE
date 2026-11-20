@@ -128,13 +128,13 @@ At a 99% confidence level, VaR is the empirical monthly breach-hour threshold th
 
 The Tail Value at Risk (TVaR) at confidence level $\alpha$ is defined as:
 
-$$
-\mathrm{TVaR}_{\alpha}(S)
+
+```mathrm{TVaR}_{\alpha}(S)
 =
 \mathbb{E}\left[
 S \mid S \geq \mathrm{VaR}_{\alpha}(S)
-\right]
-$$
+\right] ```
+
 
 TVaR measures the average aggregate breach exposure in scenarios at or beyond the VaR threshold, according to the project's empirical tail convention.
 
