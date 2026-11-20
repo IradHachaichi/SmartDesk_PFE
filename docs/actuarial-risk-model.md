@@ -22,9 +22,9 @@ $$
 
 where:
 
-- \(N\) is the number of SLA breaches during the month.
-- \(X_i\) is the excess duration associated with breach \(i\).
-- \(S\) is the aggregate monthly breach duration.
+- $N$ is the number of SLA breaches during the month.
+- $X_i$ is the excess duration associated with breach $i$.
+- $S$ is the aggregate monthly breach duration.
 
 Frequency and severity are modelled separately because they describe different components of the risk.
 
