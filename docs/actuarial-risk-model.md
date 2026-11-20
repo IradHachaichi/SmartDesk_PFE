@@ -16,9 +16,9 @@ The model produces risk measures expressed in breach hours.
 
 The aggregate monthly breach amount is:
 
-\[
+$$
 S = \sum_{i=1}^{N} X_i
-\]
+$$
 
 where:
 
@@ -118,17 +118,17 @@ Client-level results are aggregated trajectory by trajectory. This preserves the
 
 ### 7.1 Value at Risk
 
-\[
+$$
 VaR_{\alpha}(S)=\inf\{s:P(S\leq s)\geq\alpha\}
-\]
+$$
 
 At a 99% confidence level, VaR is the empirical monthly breach-hour threshold that is exceeded in approximately 1% of simulated scenarios.
 
 ### 7.2 Tail Value at Risk
 
-\[
+$$
 TVaR_{\alpha}(S)=E[S\mid S\geq VaR_{\alpha}(S)]
-\]
+$$
 
 TVaR measures the average aggregate breach exposure in scenarios at or beyond the VaR threshold, according to the project's empirical tail convention.
 
